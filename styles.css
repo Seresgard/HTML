@@ -8,3 +8,13 @@ p {
     color: orange;
     font-weight: bold;
 }
+h2,
+.center {
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 20px solid grey; 
+    font-weight: bold;
+}
+li.special, span.special {
+    font-weight: bold;
+}
