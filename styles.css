@@ -18,3 +18,13 @@ h2,
 li.special, span.special {
     font-weight: bold;
 }
+a:link {
+    color: pink;
+}
+a:hover {
+    color: violet;
+    text-decoration: aqua;
+}
+a:visited {
+    color: rebeccapurple;
+}
