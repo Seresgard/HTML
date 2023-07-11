@@ -45,11 +45,7 @@ a:visited {
     list-style-type: circle;
 
 }
-/* horizontal navigation*/
-li { float: left; }
 
-/* Vertical navigation */
-ul { width: 200px; }
 
 /* Styles for navigation */
 .nav-h, .nav-v {
@@ -75,4 +71,10 @@ li a {
 .nav-v {
     width: 200px;
     float: left;
+}
+.main-nav {
+    display: flex;
+}
+.push {
+    margin-left: auto;
 }
