@@ -45,3 +45,34 @@ a:visited {
     list-style-type: circle;
 
 }
+/* horizontal navigation*/
+li { float: left; }
+
+/* Vertical navigation */
+ul { width: 200px; }
+
+/* Styles for navigation */
+.nav-h, .nav-v {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333111;
+
+}
+li a {
+    display: block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-h li {
+    float: right; 
+}
+
+.nav-v {
+    width: 200px;
+    float: left;
+}
