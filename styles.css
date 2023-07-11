@@ -9,6 +9,9 @@ p {
     font-weight: bold;
 }
 h2,
+#chapter {
+    text-transform: uppercase;
+}
 .center {
     border: 2px solid red;
     text-align: center;
@@ -27,4 +30,18 @@ a:hover {
 }
 a:visited {
     color: rebeccapurple;
+}
+/* Comment */
+
+/* #name tags an id, .name tags a class. Anything after tag is a target - for example, li targets each list item */
+.days li {
+    text-transform: uppercase;
+    list-style-position: inside;
+    list-style-type: katakana;
+    color: rgb(253, 44, 215);
+    font-size: 1.4em
+}
+.flavors { 
+    list-style-type: circle;
+
 }
